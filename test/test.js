@@ -1,6 +1,5 @@
 import Magician from '../src/js/Magician';
 
-
 test('Вычисление атаки с «дурманом» MathCaracter', () => {
   const mage = new Magician('mage');
   mage.attack = 100;
